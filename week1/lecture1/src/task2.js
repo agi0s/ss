@@ -11,6 +11,7 @@ function canWrap(envelopeOne, envelopeTwo) {
 		envelopeTwo.d -= envelopeTwo.c;
 	}
 
+	
     if (envelopeOne.a > envelopeTwo.c &&
         envelopeOne.b > envelopeTwo.d) {
         return 1;
